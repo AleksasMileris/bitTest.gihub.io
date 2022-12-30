@@ -1,0 +1,598 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+
+.top{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 882px;
+    background: #ffffff;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width:1346px ;
+}
+
+.hero {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: black;
+}
+.nav{
+    
+    
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.nav li {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+cursor: pointer;
+
+}
+
+.nav li:hover {
+    
+    text-decoration-line: underline;
+}
+
+
+
+
+/* 
+-------------------------------------------------------
+NAV SECTION OVER
+------------------------------------------------------
+ */
+
+
+
+ .jeans {
+    position: relative;
+    display: flex;
+    justify-content: center;
+ }
+ .jeans img{
+    width: 100%;
+ }
+
+ .head {
+    position: absolute;
+ }
+ .head h1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+text-transform: uppercase;
+color: #000000;
+text-align: center;
+margin-top: 163px;
+ }
+
+ .head p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+max-width: 767px;
+color: #000000;
+margin-top: 27px;
+ }
+
+ .btn {
+    margin-top: 93px;
+    text-align: center;
+ }
+
+ .btn a {
+    text-decoration: none;
+ }
+
+ .el {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+padding: 12px 24px;
+color: #FFFFFF;
+background-color: black;
+ }
+
+ .pateikti {
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+padding: 12px 26px;
+color: #000000;
+flex-shrink: 0;
+
+ }
+
+
+
+ /*
+ -------------------------------------------------
+  HERO OVER 
+  --------------------------------------------------
+  */
+  .secBg {
+    width: 100%;
+    background: #F7F7F7;
+  }
+.why {
+    width: 100%;
+    min-height: 830px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+  .why h2{
+    
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #000000;
+
+  }
+  .pushme{
+    padding-top: 114px;
+  }
+
+  .product {
+    
+    
+    margin-top: 102px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+.pro1 {
+    width: 316px;
+    
+}
+
+  .pro1 p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+width: 316px;
+color: #000000;
+    margin-top: 80px;
+  }
+
+
+
+
+
+  /* 
+  ------------------------------------------------
+  SECTION 2 DONE 
+  ------------------------------------------------
+  */
+
+
+  .section_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.duk_child {
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+color: #000000;
+margin-top: 127px;
+}
+
+.block_text {
+    display: flex;
+    margin-top: 118px;
+    gap: 134px;
+    flex-wrap: wrap;
+}
+.block_text_child {
+    display: flex;
+    max-width: 421px;
+    
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+.block_text_child h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 678;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #000000;
+    font-variation-settings: 'slnt' 0;
+}
+
+.block_text_child p {
+    margin-top: 24px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+.buttons {
+    margin: 200px 0 166px 0;
+    
+}
+
+.question {
+    text-decoration: none;
+    padding: 12px 38px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+background: #414141;
+border-radius: 11px;
+color: #FFFFFF;
+margin-right: 16px;
+}
+
+.contact {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    background: #F3F3F3;
+border-radius: 11px;
+    color: #000000;
+    padding: 12px 38px;
+    text-decoration: none;
+}
+
+
+
+/* 
+-----------------------------------------------
+SECTION_3
+----------------------------------------------
+ */
+
+
+ .news_block {
+    margin-top: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .news_block h2 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-transform: uppercase;
+
+color: #000000;
+ }
+
+ .news_block p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+margin-top: 40px;
+max-width: 539px;
+color: #000000;
+text-align: center;
+ }
+
+
+ .fillout {
+    margin: 80px 0 221px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+.fillout input {
+   
+    min-height: 68px;
+    background: url(./bit_img/mail.png) no-repeat scroll 7px 7px;
+    background-position: 20px 22px;
+padding: 0 150px 0 65px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+
+color: #000000;
+
+}
+ .fillout button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 22px 25px;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin-left: 26px;
+    cursor: pointer;
+ }
+
+ /* 
+ ----------------------------------------------------------
+ FOOTER
+ -----------------------------------------------------------
+  */
+  .section_5 {
+    background: #EDEDED;
+    width: 100%;
+  }
+  .last_info {
+    min-height: 434px;
+  }
+
+
+
+ /*
+ -----------------------------------------------------
+  BURGER 
+  ---------------------------------------------------
+  */
+.burger {
+    cursor: pointer;
+    margin-right: 20px;
+    display: none;
+}
+  .line {
+    width: 50px;
+    height: 10px;
+    background-color: black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+
+
+
+
+  /* 
+  ------------------------------------------------
+  COOKIES
+  ------------------------------------------------
+   */
+
+
+   .hide{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.9);
+    z-index: 200;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    
+   }
+
+   .cookie {
+    position: relative;
+    width: 30%;
+    min-height: 300px;
+    background-color:rgba(255, 255, 255, 0.9);
+    z-index: 200;
+   }
+   .cookie p {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+   }
+   .press {
+    position: absolute;
+    bottom: 30px;
+    padding: 15px 40px;
+    background-color: rgb(0, 88, 189);
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-left: calc((100% - 166px ) / 2);
+    cursor: pointer;
+   }
+   .off{
+    display: none;
+    
+   }
+
+
+ @media screen and (max-width: 1050px){
+    .jeans img {
+        margin: 0 15px;
+        height: 50vh;
+    }
+    .pro1 {
+        flex-grow: 1;
+        margin-left: 15px;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    .nav {
+        margin-right: 15px;
+    }
+    .block_text {
+        flex-direction: column;
+    }
+    .fillout {
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .fillout button {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+ }
+
+ @media screen and (max-width: 750px){
+.product {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.gone {
+    display: none;
+}
+.burger {
+    display: block;
+}
+.hero {
+    position: relative;
+}
+.nav ul {
+    background: white;
+    z-index: 10;
+    padding: 40px 30px 10px 30px;
+    position: absolute;
+    
+    right: 20px;
+    top: 100px;
+    display: flex ;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 0;
+}
+.nav li {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 25px;
+    z-index: 20;
+}
+.nav li:hover {
+    background-color: black;
+    color: white;
+    display: inline;
+    
+}
+
+ }
+
+ @media screen and (max-width: 640px){
+    .fillout input {
+        padding: 0 40px 0 55px;
+        
+    }
+    
+    .jeans img {
+        height: 65vh;
+    }
+    .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .el {
+        max-width: 167px;
+        margin-bottom: 20px;
+    }
+    .pateikti {
+        max-width: 379px;
+        
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .question {
+        margin-bottom: 25px;
+    }
+    .block_text_child p {
+        margin: 0 15px;
+    }
+    .head p {margin: 0 10px;}
+ }
+ @media screen and (max-width: 500px){
+ .fillout input {
+    padding: 0;
+    background:none;
+}
+}
+ @media screen and (max-width: 410px){
+    .pateikti{
+        width: 75%;
+    }
+ }
